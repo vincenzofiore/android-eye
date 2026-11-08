@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="600" viewBox="0 0 1640 600" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="1640" height="600" fill="#fbfaf7"/>
+<text x="60" y="58" font-size="27" fill="#161616" text-anchor="start" font-weight="bold" letter-spacing="0.3">ANDROID EYE &#183; BEHAVIOUR</text>
+<text x="60" y="84" font-size="14" fill="#5f6b73" text-anchor="start" font-weight="normal">five states, one eyelid &#183; what the sensors decide and where the eyelid sits</text>
+<path d="M 60 100 L 1580 100" stroke="#d9d4c8" stroke-width="2"/>
+<rect x="70" y="240" width="200" height="132" rx="10" fill="#e9ecef" stroke="#495057" stroke-width="2.5"/>
+<text x="170.0" y="282" font-size="18" fill="#161616" text-anchor="middle" font-weight="bold" letter-spacing="1">SLEEPING</text>
+<text x="170.0" y="310" font-size="11" fill="#5f6b73" text-anchor="middle" font-weight="normal">eyelid closed, nobody around</text>
+<text x="170.0" y="338" font-size="14" fill="#3d3d3d" text-anchor="middle" font-weight="bold">eyelid 6&#176;</text>
+<text x="170.0" y="358" font-size="12" fill="#7a6a20" text-anchor="middle" font-weight="normal">LED off</text>
+<rect x="390" y="240" width="200" height="132" rx="10" fill="#fff3cd" stroke="#8a6d1a" stroke-width="2.5"/>
+<text x="490.0" y="282" font-size="18" fill="#161616" text-anchor="middle" font-weight="bold" letter-spacing="1">SUSPECT</text>
+<text x="490.0" y="310" font-size="11" fill="#5f6b73" text-anchor="middle" font-weight="normal">something moved &#183; a crack of light</text>
+<text x="490.0" y="338" font-size="14" fill="#3d3d3d" text-anchor="middle" font-weight="bold">eyelid 21&#176;</text>
+<text x="490.0" y="358" font-size="12" fill="#7a6a20" text-anchor="middle" font-weight="normal">LED 25</text>
+<rect x="710" y="240" width="200" height="132" rx="10" fill="#d8f3dc" stroke="#2d6a4f" stroke-width="2.5"/>
+<text x="810.0" y="282" font-size="18" fill="#161616" text-anchor="middle" font-weight="bold" letter-spacing="1">OPENING</text>
+<text x="810.0" y="310" font-size="11" fill="#5f6b73" text-anchor="middle" font-weight="normal">real opening, fast</text>
+<text x="810.0" y="338" font-size="14" fill="#3d3d3d" text-anchor="middle" font-weight="bold">eyelid 96&#176;</text>
+<text x="810.0" y="358" font-size="12" fill="#7a6a20" text-anchor="middle" font-weight="normal">LED 200</text>
+<rect x="1030" y="240" width="200" height="132" rx="10" fill="#c7e9d0" stroke="#2d6a4f" stroke-width="2.5"/>
+<text x="1130.0" y="282" font-size="18" fill="#161616" text-anchor="middle" font-weight="bold" letter-spacing="1">CONTACT</text>
+<text x="1130.0" y="310" font-size="11" fill="#5f6b73" text-anchor="middle" font-weight="normal">eye open, pupil dilating</text>
+<text x="1130.0" y="338" font-size="14" fill="#3d3d3d" text-anchor="middle" font-weight="bold">eyelid 96&#176;</text>
+<text x="1130.0" y="358" font-size="12" fill="#7a6a20" text-anchor="middle" font-weight="normal">LED 200</text>
+<rect x="1350" y="240" width="200" height="132" rx="10" fill="#dbe7f3" stroke="#2b4c6f" stroke-width="2.5"/>
+<text x="1450.0" y="282" font-size="18" fill="#161616" text-anchor="middle" font-weight="bold" letter-spacing="1">FAREWELL</text>
+<text x="1450.0" y="310" font-size="11" fill="#5f6b73" text-anchor="middle" font-weight="normal">last glance, then slow close</text>
+<text x="1450.0" y="338" font-size="14" fill="#3d3d3d" text-anchor="middle" font-weight="bold">eyelid 101&#176; &#8594; 6&#176;</text>
+<text x="1450.0" y="358" font-size="12" fill="#7a6a20" text-anchor="middle" font-weight="normal">LED off</text>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6b6b6b"/></marker><marker id="ap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7b2cbf"/></marker></defs>
+<path d="M 270 306.0 L 388 306.0" stroke="#6b6b6b" stroke-width="2.4" fill="none" marker-end="url(#ah)"/>
+<text x="330.0" y="279.0" font-size="10.5" fill="#5f6b73" text-anchor="middle" font-weight="normal">PIR high for</text>
+<text x="330.0" y="293.0" font-size="10.5" fill="#5f6b73" text-anchor="middle" font-weight="normal">120 ms</text>
+<path d="M 590 306.0 L 708 306.0" stroke="#6b6b6b" stroke-width="2.4" fill="none" marker-end="url(#ah)"/>
+<text x="650.0" y="279.0" font-size="10.5" fill="#5f6b73" text-anchor="middle" font-weight="normal">distance &lt; 100 cm</text>
+<text x="650.0" y="293.0" font-size="10.5" fill="#5f6b73" text-anchor="middle" font-weight="normal">for 130 ms</text>
+<path d="M 910 306.0 L 1028 306.0" stroke="#6b6b6b" stroke-width="2.4" fill="none" marker-end="url(#ah)"/>
+<text x="970.0" y="279.0" font-size="10.5" fill="#5f6b73" text-anchor="middle" font-weight="normal">servo arrived</text>
+<path d="M 1230 306.0 L 1348 306.0" stroke="#6b6b6b" stroke-width="2.4" fill="none" marker-end="url(#ah)"/>
+<text x="1290.0" y="279.0" font-size="10.5" fill="#5f6b73" text-anchor="middle" font-weight="normal">open 4 s at least,</text>
+<text x="1290.0" y="293.0" font-size="10.5" fill="#5f6b73" text-anchor="middle" font-weight="normal">then 900 ms quiet</text>
+<path d="M 1450.0 372 L 1450.0 462 L 170.0 462 L 170.0 378" stroke="#6b6b6b" stroke-width="2.4" fill="none" marker-end="url(#ah)"/>
+<text x="810.0" y="454" font-size="11.5" fill="#5f6b73" text-anchor="middle" font-weight="normal">servo arrived: the eyelid is closed again</text>
+<path d="M 1450.0 240 L 1450.0 168 L 490.0 168 L 490.0 234" stroke="#7b2cbf" stroke-width="2.4" fill="none" marker-end="url(#ap)"/>
+<text x="970.0" y="160" font-size="11.5" fill="#7b2cbf" text-anchor="middle" font-weight="normal">second thoughts: movement inside 120 ms</text>
+<text x="60" y="512" font-size="13" fill="#4a4a4a" text-anchor="start" font-weight="normal">The PIR decides whether to suspect, the ultrasonic sensor decides whether to open.</text>
+<text x="60" y="534" font-size="13" fill="#4a4a4a" text-anchor="start" font-weight="normal">Opening takes 620 ms, closing 2600 ms: that ratio is what makes the eyelid read as alive, not the absolute speed.</text>
+<text x="60" y="562" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="normal">Escape hatches: SUSPECT closes again after 900 ms of nobody in range, FAREWELL reopens on movement.</text>
+</svg>

@@ -31,6 +31,15 @@ Motor mechanics, sculpture and power supply are outside its scope.
 
 `D9` and `D10` lose PWM while the Servo library is linked — that is expected.
 
+![Wiring schematic](docs/wiring.svg)
+
+The same wiring, drawn module by module, is here and in `docs/wiring.svg`. Open
+it in a browser: it is vector, so it stays readable at any zoom, and it is the
+sheet to keep on the bench while you build.
+
+Both diagrams come from `docs/generate.py`; change the numbers there and run
+`python3 docs/generate.py`, rather than editing the SVG by hand.
+
 ## Running
 
 1. Set `CON_PIR` to `0` for a bench test without a PIR, `1` when the PIR is wired.
@@ -40,6 +49,8 @@ Motor mechanics, sculpture and power supply are outside its scope.
 Commands: `v` verbose on/off · `o` force open · `c` force close · `d` read distance.
 
 ## States
+
+![State machine](docs/states.svg)
 
 ```
 SLEEPING  eyelid closed, nobody around
