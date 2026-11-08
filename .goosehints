@@ -1,0 +1,30 @@
+# Hints for agents working on this repository
+
+## Language
+
+- The conversation with the owner is **always in Italian**.
+- Code, comments, string literals, identifiers, file names, commit messages
+  and all documentation (README, these hints) are **always in English**.
+- When the owner writes in Italian, answer in Italian; never translate the
+  code or the docs back into Italian.
+
+## Project
+
+`android-eye` is the behaviour test bench for a wall-mounted android face on a
+staircase: a PIR and an ultrasonic sensor decide when the eyelid opens.
+
+- `android_eye_test/android_eye_test.ino` is the whole firmware.
+- `README.md` documents hardware, wiring, states and tuning.
+- There is no test suite: the bench is the Arduino itself.
+
+## Rules
+
+- The sketch must keep compiling for both `CON_PIR 0` and `CON_PIR 1`.
+- Every tunable value lives in the constant block at the top of the sketch.
+  Add new ones there; never scatter magic numbers through the logic.
+- Opening/closing asymmetry (`T_OPEN` 620 ms vs `T_CLOSE` 2600 ms) is a design
+  decision, not a bug. Do not equalise them.
+- Arduino requires the folder name to match the sketch name: never rename
+  `android_eye_test/`.
+- Comments explain *why*, not *what*. Keep them short and in English.
+- Do not commit, push or tag unless the owner asks.
