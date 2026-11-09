@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="1400" height="900" fill="#fbfaf7"/>
+<text x="60" y="58" font-size="27" fill="#161616" text-anchor="start" font-weight="bold" letter-spacing="0.3">ANDROID EYE &#183; MECHANICS</text>
+<text x="60" y="84" font-size="14" fill="#5f6b73" text-anchor="start" font-weight="normal">35 mm plastic ball &#183; where the eyelid has to go &#183; side view, schematic</text>
+<path d="M 60 100 L 1340 100" stroke="#d9d4c8" stroke-width="2"/>
+<circle cx="470" cy="470" r="210" fill="#efeade" stroke="#3d3d3d" stroke-width="2.6"/>
+<circle cx="470" cy="470" r="194" fill="none" stroke="#cfc8b6" stroke-width="1.4" stroke-dasharray="5 5"/>
+<path d="M 260.0 470.0 A 210 210 0 0 1 451.7 260.8 L 470 470 Z" fill="#dbe7f3" stroke="#8fb2cf" stroke-width="1.6" stroke-dasharray="6 5"/>
+<circle cx="361.6" cy="370.7" r="46" fill="#c9a227" stroke="#8a6d1a" stroke-width="1.6"/>
+<text x="361.62023148891177" y="375.68823948049794" font-size="11" fill="#5c4a08" text-anchor="middle" font-weight="normal">pupil</text>
+<path d="M 226.0 470.0 A 244 244 0 0 1 448.7 226.9 L 451.3 256.8 A 214 214 0 0 0 256.0 470.0 Z" fill="#37474f" stroke="#1f2a30" stroke-width="1.8"/>
+<text x="267.8" y="362.5" font-size="11" fill="#e8eef1" text-anchor="middle" font-weight="bold" transform="rotate(-118 267.8 362.5)">eyelid, closed</text>
+<path d="M 272.0 470.0 L 184.0 470.0" stroke="#1f2a30" stroke-width="1.8" stroke-dasharray="7 5" opacity="0.85"/>
+<text x="156.0" y="469.99999999999994" font-size="11.5" fill="#1f2a30" text-anchor="end" font-weight="bold">6&#176; closed</text>
+<path d="M 278.7 418.8 L 193.7 396.0" stroke="#8a6d1a" stroke-width="1.8" stroke-dasharray="7 5" opacity="0.85"/>
+<text x="121.99410914624798" y="378.8956961239126" font-size="11.5" fill="#8a6d1a" text-anchor="end" font-weight="bold">21&#176; slit</text>
+<path d="M 452.7 272.8 L 445.1 185.1" stroke="#2d6a4f" stroke-width="1.8" stroke-dasharray="7 5" opacity="0.85"/>
+<text x="453.85327717570254" y="171.14159057247633" font-size="11.5" fill="#2d6a4f" text-anchor="start" font-weight="bold">96&#176; open</text>
+<path d="M 487.3 272.8 L 494.9 185.1" stroke="#2b4c6f" stroke-width="1.8" stroke-dasharray="7 5" opacity="0.85"/>
+<text x="510.67882144717566" y="119.33946627170559" font-size="11.5" fill="#2b4c6f" text-anchor="start" font-weight="bold">101&#176; glance</text>
+<path d="M 130.0 470.0 A 340 340 0 0 1 440.4 131.3" fill="none" stroke="#6b6b6b" stroke-width="2" marker-end="url(#am)"/>
+<defs><marker id="am" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6b6b6b"/></marker></defs>
+<text x="281.00000000000006" y="142.64239736948218" font-size="12.5" fill="#3d3d3d" text-anchor="middle" font-weight="bold">27.5 mm of travel</text>
+<path d="M 470 140 L 470 770" stroke="#6b6b6b" stroke-width="1.4" stroke-dasharray="14 4 4 4"/>
+<circle cx="470" cy="470" r="6" fill="#ffffff" stroke="#3d3d3d" stroke-width="2"/>
+<text x="482" y="790" font-size="12" fill="#5f6b73" text-anchor="start" font-weight="normal">pivot axis through the ball centre</text>
+<path d="M 470 470 L 298.0 590.5" stroke="#3d3d3d" stroke-width="1.6"/>
+<text x="369.38793888462146" y="536.2480783985459" font-size="12.5" fill="#3d3d3d" text-anchor="end" font-weight="bold">r 17.5 mm</text>
+<path d="M 260 470 L 680 470" stroke="#3d3d3d" stroke-width="1.4" marker-start="url(#am)" marker-end="url(#am)"/>
+<text x="698" y="475" font-size="13" fill="#3d3d3d" text-anchor="start" font-weight="bold">&#8960; 35 mm</text>
+<text x="880" y="150" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="bold" letter-spacing="1.2">WHAT EACH ANGLE MEANS</text>
+<text x="850" y="180" font-size="11.5" fill="#8a8a8a" text-anchor="start" font-weight="bold">servo</text>
+<text x="934" y="180" font-size="11.5" fill="#8a8a8a" text-anchor="start" font-weight="bold">lid edge</text>
+<text x="1030" y="180" font-size="11.5" fill="#8a8a8a" text-anchor="start" font-weight="bold">aperture</text>
+<text x="1126" y="180" font-size="11.5" fill="#8a8a8a" text-anchor="start" font-weight="bold">gap</text>
+<text x="1220" y="180" font-size="11.5" fill="#8a8a8a" text-anchor="start" font-weight="bold">state</text>
+<path d="M 850 190 L 1320 190" stroke="#d9d4c8" stroke-width="1.6"/>
+<text x="850" y="218" font-size="12.5" fill="#161616" text-anchor="start" font-weight="bold">6&#176;</text>
+<text x="934" y="218" font-size="12.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">180&#176;</text>
+<text x="1030" y="218" font-size="12.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">0&#176;</text>
+<text x="1126" y="218" font-size="12.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">0 mm</text>
+<text x="1220" y="218" font-size="11.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">closed, on the socket</text>
+<path d="M 850 228 L 1320 228" stroke="#eee8da" stroke-width="1"/>
+<text x="850" y="252" font-size="12.5" fill="#161616" text-anchor="start" font-weight="bold">21&#176;</text>
+<text x="934" y="252" font-size="12.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">165&#176;</text>
+<text x="1030" y="252" font-size="12.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">15&#176;</text>
+<text x="1126" y="252" font-size="12.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">4.6 mm</text>
+<text x="1220" y="252" font-size="11.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">the line of light</text>
+<path d="M 850 262 L 1320 262" stroke="#eee8da" stroke-width="1"/>
+<text x="850" y="286" font-size="12.5" fill="#161616" text-anchor="start" font-weight="bold">96&#176;</text>
+<text x="934" y="286" font-size="12.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">95&#176;</text>
+<text x="1030" y="286" font-size="12.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">90&#176;</text>
+<text x="1126" y="286" font-size="12.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">27.5 mm</text>
+<text x="1220" y="286" font-size="11.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">pupil fully out</text>
+<path d="M 850 296 L 1320 296" stroke="#eee8da" stroke-width="1"/>
+<text x="850" y="320" font-size="12.5" fill="#161616" text-anchor="start" font-weight="bold">101&#176;</text>
+<text x="934" y="320" font-size="12.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">85&#176;</text>
+<text x="1030" y="320" font-size="12.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">95&#176;</text>
+<text x="1126" y="320" font-size="12.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">29 mm</text>
+<text x="1220" y="320" font-size="11.5" fill="#3d3d3d" text-anchor="start" font-weight="normal">last glance</text>
+<path d="M 850 330 L 1320 330" stroke="#eee8da" stroke-width="1"/>
+<text x="850" y="420" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="bold" letter-spacing="1.2">WHY IT IS BUILT LIKE THIS</text>
+<text x="850" y="450" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="866" y="450" font-size="12.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">The lid turns about an axis through the ball centre, so it</text>
+<text x="866" y="468" font-size="12.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">needs no track: it simply slides on the sphere and its</text>
+<text x="866" y="486" font-size="12.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">curvature is fixed for free.</text>
+<text x="850" y="518" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="866" y="518" font-size="12.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">The shell must be curved to r 17.5 mm. Flat cardboard touches</text>
+<text x="866" y="536" font-size="12.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">the ball only in the middle and leaves two crescents of light.</text>
+<text x="850" y="568" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="866" y="568" font-size="12.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">A 20 mm pupil needs about 70&#176; of aperture to be fully</text>
+<text x="866" y="586" font-size="12.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">uncovered: the 90&#176; of travel leaves margin, so the limit</text>
+<text x="866" y="604" font-size="12.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">is timing, not geometry.</text>
+<text x="850" y="636" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="866" y="636" font-size="12.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">The silicone clutch on the axle holds the lid wherever the</text>
+<text x="866" y="654" font-size="12.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">servo leaves it, so detaching the servo does not drop the</text>
+<text x="866" y="672" font-size="12.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">eyelid, and the servo carries the lid only while it is moving.</text>
+<text x="70" y="860" font-size="11.5" fill="#8a8a8a" text-anchor="start" font-weight="normal">Scale: 12 px per mm. The eyelid thickness is exaggerated to stay readable.</text>
+</svg>

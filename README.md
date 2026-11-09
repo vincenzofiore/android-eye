@@ -13,6 +13,7 @@ Motor mechanics, sculpture and power supply are outside its scope.
 | 1 | Arduino Uno R3 | |
 | 1 | HC-SR04 ultrasonic sensor | aimed ~25° downwards along the stair flight |
 | 1 | SG90 micro servo | drives the eyelid |
+| 1 | Plastic ball, **35 mm** diameter | ready-made sphere, serves as the eyeball |
 | 1 | LED + 220 Ω resistor | sits inside the hollow eyeball (pupil) |
 | 1 | PIR module HC-SR501 | optional for the bench, required on site |
 | — | cardboard | temporary eyelid for the first run |
@@ -85,11 +86,27 @@ Every tunable number is at the top of the sketch.
 
 ## Mechanical notes
 
+- The eyeball is an off-the-shelf plastic ball, **35 mm** across: radius
+  17.5 mm. That radius sizes the whole mechanism, because the eyelid slides on
+  the sphere and not on a flat plane.
+- The sketch moves the eyelid from 6° to 96°, so 90° of arc: on a 17.5 mm
+  radius that is **27.5 mm of travel** at the surface. That is the distance the
+  servo horn has to cover, and the number to design the pivot around.
+- The eyelid has to be **curved to the same 17.5 mm radius**. A flat piece of
+  cardboard touches the ball only along its middle and leaves two crescents of
+  light at the corners, which read as a badly fitted eyelid rather than as
+  sleep.
 - The eyelid needs a **friction clutch** on its pivot (a short piece of silicone
   tube over the axle). Without it, detaching the servo lets the eyelid fall.
 - The inside of the eye socket must be **matte black**, otherwise the open eye
   reads as a hole rather than as depth.
 - Two identical eyelids are needed: one moving, one glued shut on the other eye.
+
+![Mechanics](docs/mechanics.svg)
+
+`docs/mechanics.svg` is the drawing to put on the bench next to the ball: where
+the lid edge sits at each angle, how wide the gap is at each position, and the
+27.5 mm of travel the horn has to cover.
 
 ## Power
 

@@ -163,7 +163,8 @@ s.append(f'<rect x="{LX0}" y="{LY0}" width="{LX1-LX0}" height="{LY1-LY0}" rx="8"
          f'fill="#fffbef" stroke="#c9a227" stroke-width="2"/>\n')
 s.append(text(LX0 + 20, LY0 + 28, "LED (PUPIL) &#8212; D6", 15, "#5c4a08",
               weight="bold", spacing="0.5"))
-s.append(text(LX0 + 20, LY0 + 47, "220 &#937; in series, anode towards D6", 12, "#7a6a20"))
+s.append(text(LX0 + 20, LY0 + 47, "220 &#937; in series, anode towards D6 &#183; "
+              "fits inside the 35 mm plastic ball", 12, "#7a6a20"))
 
 ly = 990
 s.append(wire([(LX0 + 20, ly), (LX0 + 120, ly)], WIRE["led"]))
@@ -305,3 +306,171 @@ s.append(text(60, 562, "Escape hatches: SUSPECT closes again after 900 ms of nob
 s.append("</svg>\n")
 open(f"{OUT}/states.svg", "w").write("".join(s))
 print("wrote states.svg")
+
+
+# ======================================================================
+# 3. mechanics
+# ======================================================================
+import math
+
+W3, H3 = 1400, 900
+s = [HEAD.format(w=W3, h=H3)]
+s.append(f'<rect width="{W3}" height="{H3}" fill="#fbfaf7"/>\n')
+s.append(text(60, 58, "ANDROID EYE &#183; MECHANICS", 27, "#161616",
+              weight="bold", spacing="0.3"))
+s.append(text(60, 84, "35 mm plastic ball &#183; where the eyelid has to go &#183; "
+              "side view, schematic", 14, "#5f6b73"))
+s.append('<path d="M 60 100 L 1340 100" stroke="#d9d4c8" stroke-width="2"/>\n')
+
+CX, CY, R = 470, 470, 210          # 210 px = 17.5 mm -> 12 px per mm
+MM = 12.0
+
+
+def pt(theta, radius=R):
+    return (CX + radius * math.cos(math.radians(theta)),
+            CY - radius * math.sin(math.radians(theta)))
+
+
+def fmt(p):
+    return f"{p[0]:.1f} {p[1]:.1f}"
+
+
+FRONT, TOP = 180.0, 95.0           # aperture runs from the front to the top
+
+# ball
+s.append(f'<circle cx="{CX}" cy="{CY}" r="{R}" fill="#efeade" stroke="#3d3d3d" '
+         f'stroke-width="2.6"/>\n')
+s.append(f'<circle cx="{CX}" cy="{CY}" r="{R-16}" fill="none" stroke="#cfc8b6" '
+         f'stroke-width="1.4" stroke-dasharray="5 5"/>\n')
+
+# aperture wedge
+a0, a1 = FRONT, TOP
+s.append(f'<path d="M {fmt(pt(a0, R))} A {R} {R} 0 0 1 {fmt(pt(a1, R))} L {CX} {CY} Z" '
+         f'fill="#dbe7f3" stroke="#8fb2cf" stroke-width="1.6" stroke-dasharray="6 5"/>\n')
+
+# pupil, centred in the aperture
+PUP_TH, PUP_R = (FRONT + TOP) / 2, 0.70 * R
+pp = pt(PUP_TH, PUP_R)
+s.append(f'<circle cx="{pp[0]:.1f}" cy="{pp[1]:.1f}" r="46" '
+         f'fill="#c9a227" stroke="#8a6d1a" stroke-width="1.6"/>\n')
+s.append(text(pp[0], pp[1] + 5, "pupil", 11, "#5c4a08", anchor="middle"))
+
+# closed eyelid: annular band over the aperture
+RO = R + 34
+s.append(f'<path d="M {fmt(pt(a0, RO))} A {RO} {RO} 0 0 1 {fmt(pt(a1, RO))} '
+         f'L {fmt(pt(a1, R+4))} A {R+4} {R+4} 0 0 0 {fmt(pt(a0, R+4))} Z" '
+         f'fill="#37474f" stroke="#1f2a30" stroke-width="1.8"/>\n')
+_lx, _ly = pt(152, R + 19)
+s.append(f'<text x="{_lx:.1f}" y="{_ly:.1f}" font-size="11" fill="#e8eef1" '
+         f'text-anchor="middle" font-weight="bold" '
+         f'transform="rotate({152-270} {_lx:.1f} {_ly:.1f})">eyelid, closed</text>\n')
+
+# leading-edge positions
+LID_ANGLES = [(180, 306, "end", -8, "6&#176; closed", "#1f2a30"),
+              (165, 352, "end", -8, "21&#176; slit", "#8a6d1a"),
+              (95, 300, "start", 10, "96&#176; open", "#2d6a4f"),
+              (85, 352, "start", 10, "101&#176; glance", "#2b4c6f")]
+for theta, lr, anchor, off, label, col in LID_ANGLES:
+    inner, outer = pt(theta, R - 12), pt(theta, RO + 42)
+    s.append(f'<path d="M {fmt(inner)} L {fmt(outer)}" stroke="{col}" stroke-width="1.8" '
+             f'stroke-dasharray="7 5" opacity="0.85"/>\n')
+    lab = pt(theta, lr)
+    s.append(text(lab[0] + off, lab[1], label, 11.5, col, anchor=anchor,
+                  weight="bold"))
+
+# travel arc
+ARC = RO + 96
+p_start, p_end = pt(FRONT, ARC), pt(TOP, ARC)
+s.append(f'<path d="M {fmt(p_start)} A {ARC} {ARC} 0 0 1 {fmt(p_end)}" fill="none" '
+         f'stroke="#6b6b6b" stroke-width="2" marker-end="url(#am)"/>\n')
+s.append('<defs><marker id="am" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" '
+         'markerHeight="7" orient="auto-start-reverse">'
+         '<path d="M 0 0 L 10 5 L 0 10 z" fill="#6b6b6b"/></marker></defs>\n')
+mp = pt(120, 378)
+s.append(text(mp[0], mp[1], "27.5 mm of travel", 12.5, "#3d3d3d", anchor="middle",
+              weight="bold"))
+
+# centre and pivot axis
+s.append(f'<path d="M {CX} {CY-330} L {CX} {CY+300}" stroke="#6b6b6b" stroke-width="1.4" '
+         f'stroke-dasharray="14 4 4 4"/>\n')
+s.append(f'<circle cx="{CX}" cy="{CY}" r="6" fill="#ffffff" stroke="#3d3d3d" stroke-width="2"/>\n')
+s.append(text(CX + 12, CY + 320, "pivot axis through the ball centre", 12, "#5f6b73"))
+
+# radius
+rp = pt(215, R)
+s.append(f'<path d="M {CX} {CY} L {fmt(rp)}" stroke="#3d3d3d" stroke-width="1.6"/>\n')
+mid = pt(215, R * 0.55)
+s.append(text(mid[0] - 6, mid[1], "r 17.5 mm", 12.5, "#3d3d3d", anchor="end",
+              weight="bold"))
+
+# diameter
+s.append(f'<path d="M {CX-R} {CY} L {CX+R} {CY}" stroke="#3d3d3d" stroke-width="1.4" '
+         f'marker-start="url(#am)" marker-end="url(#am)"/>\n')
+s.append(text(CX + R + 18, CY + 5, "&#8960; 35 mm", 13, "#3d3d3d", weight="bold"))
+
+# ---------------------------------------------------------------- table
+TX, TY = 880, 150
+s.append(text(TX, TY, "WHAT EACH ANGLE MEANS", 13, "#5f6b73", weight="bold",
+              spacing="1.2"))
+TX = 850
+cols = [(TX, "servo"), (TX + 84, "lid edge"), (TX + 180, "aperture"),
+        (TX + 276, "gap"), (TX + 370, "state")]
+for x, c in cols:
+    s.append(text(x, TY + 30, c, 11.5, "#8a8a8a", weight="bold"))
+s.append(f'<path d="M {TX} {TY+40} L {TX+470} {TY+40}" stroke="#d9d4c8" '
+         f'stroke-width="1.6"/>\n')
+
+ROWS = [
+    ("6&#176;", "180&#176;", "0&#176;", "0 mm", "closed, on the socket"),
+    ("21&#176;", "165&#176;", "15&#176;", "4.6 mm", "the line of light"),
+    ("96&#176;", "95&#176;", "90&#176;", "27.5 mm", "pupil fully out"),
+    ("101&#176;", "85&#176;", "95&#176;", "29 mm", "last glance"),
+]
+for i, row in enumerate(ROWS):
+    y = TY + 68 + i * 34
+    for x, cell in zip([c[0] for c in cols], row):
+        s.append(text(x, y, cell, 12.5 if x != TX + 370 else 11.5,
+                      "#161616" if x == TX else "#3d3d3d",
+                      weight="bold" if x == TX else "normal"))
+    s.append(f'<path d="M {TX} {y+10} L {TX+470} {y+10}" stroke="#eee8da" '
+             f'stroke-width="1"/>\n')
+
+# ---------------------------------------------------------------- notes
+NX, NY = 850, 420
+s.append(text(NX, NY, "WHY IT IS BUILT LIKE THIS", 13, "#5f6b73", weight="bold",
+              spacing="1.2"))
+NOTES = [
+    ("The lid turns about an axis through the ball centre, so it needs no track: "
+     "it simply slides on the sphere and its curvature is fixed for free."),
+    ("The shell must be curved to r 17.5 mm. Flat cardboard touches the ball only "
+     "in the middle and leaves two crescents of light."),
+    ("A 20 mm pupil needs about 70&#176; of aperture to be fully uncovered: the "
+     "90&#176; of travel leaves margin, so the limit is timing, not geometry."),
+    ("The silicone clutch on the axle holds the lid wherever the servo leaves it, "
+     "so detaching the servo does not drop the eyelid, and the servo carries the "
+     "lid only while it is moving."),
+]
+y = NY + 30
+for n in NOTES:
+    s.append(text(NX, y, "&#8226;", 13, "#5f6b73"))
+    # naive wrap at 62 characters
+    words, line, lines = n.split(" "), "", []
+    for w in words:
+        probe = (line + " " + w).strip()
+        if len(probe) > 62:
+            lines.append(line)
+            line = w
+        else:
+            line = probe
+    lines.append(line)
+    for i, ln in enumerate(lines):
+        s.append(text(NX + 16, y + i * 18, ln, 12.5, "#4a4a4a"))
+    y += 18 * len(lines) + 14
+
+# scale hint
+s.append(text(70, 860, "Scale: 12 px per mm. The eyelid thickness is exaggerated "
+              "to stay readable.", 11.5, "#8a8a8a"))
+
+s.append("</svg>\n")
+open(f"{OUT}/mechanics.svg", "w").write("".join(s))
+print("wrote mechanics.svg")
