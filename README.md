@@ -113,3 +113,7 @@ the lid edge sits at each angle, how wide the gap is at each position, and the
 `CON_LATCH` must stay `0` unless the soft-latch circuit is installed and the
 board is not USB-powered, otherwise the board switches itself off after every
 interaction.
+
+`docs/bom.md` lists what to buy — board, latch, pack, wood — and how to move
+the circuit from the breadboard to a soldered assembly once the behaviour
+works.
