@@ -117,3 +117,6 @@ interaction.
 `docs/bom.md` lists what to buy — board, latch, pack, wood — and how to move
 the circuit from the breadboard to a soldered assembly once the behaviour
 works.
+
+`docs/PROJECT.md` is the project plan: the idea, the design, the decision
+trail, and the steps still to be done, as a checklist.
