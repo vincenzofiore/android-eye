@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1080" viewBox="0 0 1240 1080" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="1240" height="1080" fill="#fbfaf7"/>
+<text x="50" y="56" font-size="26" fill="#161616" text-anchor="start" font-weight="bold" letter-spacing="0.3">ANDROID EYE &#183; SOFT LATCH</text>
+<text x="50" y="82" font-size="13.5" fill="#5f6b73" text-anchor="start" font-weight="normal">the PIR is always awake and wakes the board; D4 keeps it alive until the face is quiet again</text>
+<path d="M 50 98 L 1180 98" stroke="#d9d4c8" stroke-width="2"/>
+<path d="M 95 148 L 1150 148" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 95 148 L 1150 148" fill="none" stroke="#d62828" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="100" y="138" font-size="11.5" fill="#d62828" text-anchor="start" font-weight="bold">PACK +</text>
+<path d="M 95 800 L 1150 800" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 95 800 L 1150 800" fill="none" stroke="#1b1b1b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="100" y="818" font-size="11.5" fill="#1b1b1b" text-anchor="start" font-weight="bold">GND</text>
+<path d="M 95 148 L 95 800" fill="none" stroke="#ffffff" stroke-width="7.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 95 148 L 95 800" fill="none" stroke="#1b1b1b" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="70" y="300" width="50" height="330" rx="6" fill="#fff8e8" stroke="#8a6d1a" stroke-width="2"/>
+<text x="95" y="480" font-size="11.5" fill="#8a6d1a" text-anchor="middle" transform="rotate(-90 95 480)">4&#215;AA NiMH, 4.8 V</text>
+<rect x="330" y="196" width="100" height="58" rx="6" fill="#eef4ff" stroke="#2b6cb0" stroke-width="2"/>
+<text x="380.0" y="216" font-size="12.5" fill="#161616" text-anchor="middle" font-weight="bold">Q1</text>
+<text x="380.0" y="232" font-size="11" fill="#6b6b6b" text-anchor="middle" font-weight="normal">P-MOSFET</text>
+<rect x="330" y="452" width="100" height="58" rx="6" fill="#eef4ff" stroke="#2b6cb0" stroke-width="2"/>
+<text x="380.0" y="472" font-size="12.5" fill="#161616" text-anchor="middle" font-weight="bold">Q2</text>
+<text x="380.0" y="488" font-size="11" fill="#6b6b6b" text-anchor="middle" font-weight="normal">NPN</text>
+<text x="440" y="214" font-size="10.5" fill="#6b6b6b" text-anchor="start" font-weight="normal">IRF9540</text>
+<text x="440" y="470" font-size="10.5" fill="#6b6b6b" text-anchor="start" font-weight="normal">2N2222</text>
+<path d="M 430 225 L 1150 225" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 430 225 L 1150 225" fill="none" stroke="#d62828" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1050" y="216" font-size="11.5" fill="#d62828" text-anchor="start" font-weight="bold">+5 V switched</text>
+<path d="M 380 254 L 380 452" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 380 254 L 380 452" fill="none" stroke="#2b6cb0" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 360 254 L 360 196" fill="none" stroke="#ffffff" stroke-width="6.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 360 254 L 360 196" fill="none" stroke="#2b6cb0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="352" y="150" width="16" height="46" fill="#ffffff" stroke="#2b6cb0" stroke-width="1.8"/>
+<text x="352" y="142" font-size="10.5" fill="#2b6cb0" text-anchor="middle" font-weight="normal">R1 100k</text>
+<circle cx="360" cy="148" r="6.5" fill="#ffffff"/><circle cx="360" cy="148" r="4.4" fill="#d62828"/>
+<text x="388" y="300" font-size="10.5" fill="#2b6cb0" text-anchor="start" font-weight="normal">gate</text>
+<path d="M 430 481 L 505 481" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 430 481 L 505 481" fill="none" stroke="#2b6cb0" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="505" y="474" width="46" height="14" fill="#ffffff" stroke="#2b6cb0" stroke-width="1.8"/>
+<text x="528" y="466" font-size="10.5" fill="#2b6cb0" text-anchor="middle" font-weight="normal">R2 10k</text>
+<path d="M 551 481 L 640 481" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 551 481 L 640 481" fill="none" stroke="#2b6cb0" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="600" y="472" font-size="11" fill="#2b6cb0" text-anchor="start" font-weight="bold">D4</text>
+<rect x="120" y="560" width="180" height="140" rx="6" fill="#f7f1ff" stroke="#7b2cbf" stroke-width="2"/>
+<text x="210.0" y="580" font-size="12.5" fill="#161616" text-anchor="middle" font-weight="bold">HC-SR501</text>
+<text x="210.0" y="596" font-size="11" fill="#6b6b6b" text-anchor="middle" font-weight="normal">always powered</text>
+<path d="M 95 610 L 120 610" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 95 610 L 120 610" fill="none" stroke="#d62828" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 95 660 L 120 660" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 95 660 L 120 660" fill="none" stroke="#1b1b1b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 300 630 L 400 630" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 300 630 L 400 630" fill="none" stroke="#7b2cbf" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="400" y="623" width="46" height="14" fill="#ffffff" stroke="#7b2cbf" stroke-width="1.8"/>
+<text x="423" y="615" font-size="10.5" fill="#7b2cbf" text-anchor="middle" font-weight="normal">R3 10k</text>
+<path d="M 446 630 L 480 630 L 480 481" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 446 630 L 480 630 L 480 481" fill="none" stroke="#7b2cbf" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="480" cy="481" r="6.5" fill="#ffffff"/><circle cx="480" cy="481" r="4.4" fill="#2b6cb0"/>
+<text x="310" y="646" font-size="11" fill="#7b2cbf" text-anchor="start" font-weight="normal">OUT</text>
+<path d="M 480 630 L 600 630 L 600 380 L 640 380" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 480 630 L 600 630 L 600 380 L 640 380" fill="none" stroke="#7b2cbf" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="480" cy="630" r="6.5" fill="#ffffff"/><circle cx="480" cy="630" r="4.4" fill="#7b2cbf"/>
+<text x="556" y="372" font-size="11" fill="#7b2cbf" text-anchor="start" font-weight="bold">D2</text>
+<rect x="640" y="330" width="240" height="370" rx="6" fill="#f4f8f4" stroke="#2d6a4f" stroke-width="2"/>
+<text x="760.0" y="350" font-size="12.5" fill="#161616" text-anchor="middle" font-weight="bold">ARDUINO NANO</text>
+<text x="760.0" y="366" font-size="11" fill="#6b6b6b" text-anchor="middle" font-weight="normal">same sketch, same pins</text>
+<path d="M 760 225 L 760 330" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 760 225 L 760 330" fill="none" stroke="#d62828" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="766" y="300" font-size="11" fill="#d62828" text-anchor="start" font-weight="bold">5V</text>
+<path d="M 820 700 L 820 800" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 820 700 L 820 800" fill="none" stroke="#1b1b1b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="826" y="740" font-size="11" fill="#1b1b1b" text-anchor="start" font-weight="bold">GND</text>
+<text x="650" y="384" font-size="11" fill="#3d3d3d" text-anchor="start" font-weight="bold">D2</text>
+<text x="650" y="414" font-size="11" fill="#3d3d3d" text-anchor="start" font-weight="bold">D4</text>
+<text x="650" y="454" font-size="11" fill="#3d3d3d" text-anchor="start" font-weight="bold">D6</text>
+<text x="650" y="494" font-size="11" fill="#3d3d3d" text-anchor="start" font-weight="bold">D7</text>
+<text x="650" y="524" font-size="11" fill="#3d3d3d" text-anchor="start" font-weight="bold">D8</text>
+<text x="650" y="564" font-size="11" fill="#3d3d3d" text-anchor="start" font-weight="bold">D9</text>
+<path d="M 1150 225 L 1180 225" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1150 225 L 1180 225" fill="none" stroke="#d62828" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1180 225 L 1180 655" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1180 225 L 1180 655" fill="none" stroke="#d62828" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="950" y="300" width="190" height="90" rx="6" fill="#ffffff" stroke="#3d3d3d" stroke-width="2"/>
+<text x="1045.0" y="320" font-size="12.5" fill="#161616" text-anchor="middle" font-weight="bold">SG90</text>
+<text x="1045.0" y="336" font-size="11" fill="#6b6b6b" text-anchor="middle" font-weight="normal">moves with the lid</text>
+<path d="M 1180 345 L 1140 345" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1180 345 L 1140 345" fill="none" stroke="#d62828" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 950 345 L 905 345" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 950 345 L 905 345" fill="none" stroke="#1b1b1b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 905 345 L 905 800" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 905 345 L 905 800" fill="none" stroke="#1b1b1b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 880 560 L 925 560 L 925 375 L 950 375" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 880 560 L 925 560 L 925 375 L 950 375" fill="none" stroke="#e07a1f" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="930" y="565" font-size="11" fill="#e07a1f" text-anchor="start" font-weight="bold">D9</text>
+<rect x="950" y="430" width="190" height="80" rx="6" fill="#ffffff" stroke="#3d3d3d" stroke-width="2"/>
+<text x="1045.0" y="450" font-size="12.5" fill="#161616" text-anchor="middle" font-weight="bold">LED pupil</text>
+<text x="1045.0" y="466" font-size="11" fill="#6b6b6b" text-anchor="middle" font-weight="normal">through 220 &#937;</text>
+<path d="M 1180 470 L 1140 470" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1180 470 L 1140 470" fill="none" stroke="#d62828" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 950 490 L 905 490" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 950 490 L 905 490" fill="none" stroke="#1b1b1b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 905 490 L 905 800" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 905 490 L 905 800" fill="none" stroke="#1b1b1b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 880 450 L 928 450 L 928 445 L 950 445" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 880 450 L 928 450 L 928 445 L 950 445" fill="none" stroke="#c9a227" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="933" y="440" font-size="11" fill="#8a6d1a" text-anchor="start" font-weight="bold">D6</text>
+<rect x="950" y="560" width="190" height="100" rx="6" fill="#ffffff" stroke="#3d3d3d" stroke-width="2"/>
+<text x="1045.0" y="580" font-size="12.5" fill="#161616" text-anchor="middle" font-weight="bold">HC-SR04</text>
+<text x="1045.0" y="596" font-size="11" fill="#6b6b6b" text-anchor="middle" font-weight="normal">aims down the flight</text>
+<path d="M 1180 610 L 1140 610" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1180 610 L 1140 610" fill="none" stroke="#d62828" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 950 640 L 905 640" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 950 640 L 905 640" fill="none" stroke="#1b1b1b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 880 490 L 930 490 L 930 585 L 950 585" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 880 490 L 930 490 L 930 585 L 950 585" fill="none" stroke="#2a9d8f" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="934" y="583" font-size="11" fill="#2a9d8f" text-anchor="start" font-weight="bold">D7</text>
+<path d="M 880 520 L 938 520 L 938 620 L 950 620" fill="none" stroke="#ffffff" stroke-width="7.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 880 520 L 938 520 L 938 620 L 950 620" fill="none" stroke="#3a7ca5" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="942" y="618" font-size="11" fill="#3a7ca5" text-anchor="start" font-weight="bold">D8</text>
+<text x="70" y="880" font-size="12" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="86" y="880" font-size="11.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">Off state: only the PIR draws, about 60 &#181;A.</text>
+<text x="86" y="895" font-size="11.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">That is what makes a battery pack last years.</text>
+<text x="70" y="922" font-size="12" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="86" y="922" font-size="11.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">Boot: PIR OUT goes high, R3 pulls Q2's base, Q2</text>
+<text x="86" y="937" font-size="11.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">pulls the gate low, Q1 conducts, the board starts.</text>
+<text x="70" y="964" font-size="12" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="86" y="964" font-size="11.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">Run: the sketch sets D4 high in setup(), which holds</text>
+<text x="86" y="979" font-size="11.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">Q2 on through R2. The PIR can now go quiet.</text>
+<text x="670" y="880" font-size="12" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="686" y="880" font-size="11.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">Sleep: when the state machine reaches SLEEPING and</text>
+<text x="686" y="895" font-size="11.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">T_SHUTDOWN passes, D4 goes low and everything dies</text>
+<text x="686" y="910" font-size="11.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">but the PIR.</text>
+<text x="670" y="937" font-size="12" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="686" y="937" font-size="11.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">R1 keeps the gate at the pack voltage when nothing</text>
+<text x="686" y="952" font-size="11.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">pulls it down: without it the FET may half-conduct.</text>
+<text x="670" y="979" font-size="12" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="686" y="979" font-size="11.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">The pack feeds the 5 V pin directly, so keep it at</text>
+<text x="686" y="994" font-size="11.5" fill="#4a4a4a" text-anchor="start" font-weight="normal">4.8-5.2 V. With 6&#215;AA (9 V) feed VIN instead.</text>
+<text x="60" y="1050" font-size="11" fill="#8a8a8a" text-anchor="start" font-weight="normal">Values are starting points: R1 100 k, R2 and R3 10 k, Q2 any small NPN, Q1 any P-channel FET that turns on at 4 V of gate-source.</text>
+</svg>

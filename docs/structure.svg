@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="900" viewBox="0 0 1240 900" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="1240" height="900" fill="#fbfaf7"/>
+<text x="50" y="56" font-size="26" fill="#161616" text-anchor="start" font-weight="bold" letter-spacing="0.3">ANDROID EYE &#183; HALF FACE, FRONT VIEW</text>
+<text x="50" y="82" font-size="13.5" fill="#5f6b73" text-anchor="start" font-weight="normal">360 mm head, no neck, eye in proportion &#183; two identical 18 mm panels, 3 mm bevel &#183; figures in millimetres, not to scale</text>
+<path d="M 50 98 L 1190 98" stroke="#d9d4c8" stroke-width="2"/>
+<path d="M 132.0 718.8 C 137.5 707.8 146.7 694.9 159.6 682.0 C 181.8 659.8 209.4 634.0 231.5 611.9 L 242.6 593.5 C 248.1 567.7 251.8 538.2 253.7 512.4 C 255.5 486.6 253.7 464.5 250.0 442.3 C 246.3 416.5 237.1 394.4 224.2 372.3 C 209.4 342.8 183.6 313.3 157.8 296.7 C 146.7 291.2 137.5 289.4 132.0 291.2 L 132.0 718.8 Z" fill="#e8dcc4" stroke="#5a4a30" stroke-width="2.4"/>
+<rect x="132.0" y="429.4" width="24.0" height="82.9" rx="2" fill="#cbb894" stroke="#6b5a3e" stroke-width="1.5"/>
+<rect x="132.0" y="545.6" width="25.8" height="25.8" rx="2" fill="#a89372" stroke="#6b5a3e" stroke-width="1.5"/>
+<rect x="132.0" y="678.3" width="35.0" height="33.2" rx="2" fill="#cbb894" stroke="#6b5a3e" stroke-width="1.5"/>
+<path d="M 132.0 416.5 L 209.4 401.8 L 209.4 423.9 L 132.0 438.7 Z" fill="#cbb894" stroke="#6b5a3e" stroke-width="1.5"/>
+<circle cx="176.2" cy="447.9" r="29.4" fill="#f8f5ec" stroke="#3d3d3d" stroke-width="2"/>
+<circle cx="176.2" cy="447.9" r="22.4" fill="#e3dccb" stroke="#3d3d3d" stroke-width="1.8"/>
+<path d="M 153.8 449.9 A 22.4 22.4 0 0 1 198.6 449.9 Z" fill="#a89372" stroke="#5a4a30" stroke-width="2"/>
+<path d="M 155.8 448.9 Q 176.2 456.8 196.7 448.9" fill="none" stroke="#5a4a30" stroke-width="1.8"/>
+<path d="M 153.8 443.9 L 153.8 414.6 A 22.4 22.4 0 0 1 198.6 414.6 L 198.6 443.9" fill="none" stroke="#2d6a4f" stroke-width="1.8" stroke-dasharray="7 5"/>
+<circle cx="202.0" cy="379.7" r="20.5" fill="#f2eefc" stroke="#7b2cbf" stroke-width="2"/>
+<circle cx="202.0" cy="379.7" r="14.1" fill="#ffffff" stroke="#7b2cbf" stroke-width="1.5"/>
+<rect x="250.0" y="438.7" width="24.0" height="92.2" rx="7.4" fill="#cbb894" stroke="#6b5a3e" stroke-width="2"/>
+<circle cx="148.6" cy="331.8" r="7" fill="#ffffff" stroke="#3d3d3d" stroke-width="1.8"/>
+<path d="M 144.2 331.8 L 153.0 331.8 M 148.6 327.4 L 148.6 336.2" stroke="#3d3d3d" stroke-width="1.5"/>
+<circle cx="216.8" cy="475.5" r="7" fill="#ffffff" stroke="#3d3d3d" stroke-width="1.8"/>
+<path d="M 212.4 475.5 L 221.2 475.5 M 216.8 471.1 L 216.8 479.9" stroke="#3d3d3d" stroke-width="1.5"/>
+<circle cx="187.3" cy="667.2" r="7" fill="#ffffff" stroke="#3d3d3d" stroke-width="1.8"/>
+<path d="M 182.9 667.2 L 191.7 667.2 M 187.3 662.8 L 187.3 671.6" stroke="#3d3d3d" stroke-width="1.5"/>
+<circle cx="227.8" cy="575.1" r="7" fill="#ffffff" stroke="#3d3d3d" stroke-width="1.8"/>
+<path d="M 223.4 575.1 L 232.2 575.1 M 227.8 570.7 L 227.8 579.5" stroke="#3d3d3d" stroke-width="1.5"/>
+<path d="M 176.2 447.9 L 146.7 387.0" stroke="#3d3d3d" stroke-width="1.3" opacity="0.7"/>
+<circle cx="146.7" cy="387.0" r="11" fill="#3d3d3d"/>
+<text x="146.7456" y="392.0464" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<path d="M 202.0 379.7 L 261.0 339.1" stroke="#7b2cbf" stroke-width="1.3" opacity="0.7"/>
+<circle cx="261.0" cy="339.1" r="11" fill="#7b2cbf"/>
+<text x="261.024" y="344.1232" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<path d="M 143.1 471.8 L 187.3 490.3" stroke="#6b5a3e" stroke-width="1.3" opacity="0.7"/>
+<circle cx="187.3" cy="490.3" r="11" fill="#6b5a3e"/>
+<text x="187.296" y="495.2656" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<path d="M 146.7 558.5 L 187.3 575.1" stroke="#6b5a3e" stroke-width="1.3" opacity="0.7"/>
+<circle cx="187.3" cy="575.1" r="11" fill="#6b5a3e"/>
+<text x="187.296" y="580.0527999999999" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<path d="M 253.7 475.5 L 294.2 401.8" stroke="#6b5a3e" stroke-width="1.3" opacity="0.7"/>
+<circle cx="294.2" cy="401.8" r="11" fill="#6b5a3e"/>
+<text x="294.2016" y="406.79200000000003" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<defs><marker id="dA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2b6cb0"/></marker></defs>
+<path d="M 44 291.2 L 44 718.8" stroke="#2b6cb0" stroke-width="1.4" marker-start="url(#dA)" marker-end="url(#dA)"/>
+<path d="M 38 291.2 L 50 291.2 M 38 718.8 L 50 718.8" stroke="#2b6cb0" stroke-width="1.2"/>
+<text x="35" y="505.0" font-size="13" fill="#2b6cb0" text-anchor="middle" transform="rotate(-90 35 505.0)">334</text>
+<path d="M 26 447.9 L 26 718.8" stroke="#2b6cb0" stroke-width="1.4" marker-start="url(#dA)" marker-end="url(#dA)"/>
+<path d="M 20 447.9 L 32 447.9 M 20 718.8 L 32 718.8" stroke="#2b6cb0" stroke-width="1.2"/>
+<text x="17" y="583.3" font-size="13" fill="#2b6cb0" text-anchor="middle" transform="rotate(-90 17 583.3)">238 to the eye</text>
+<path d="M 132.0 858 L 279.5 858" stroke="#2b6cb0" stroke-width="1.4" marker-start="url(#dA)" marker-end="url(#dA)"/>
+<path d="M 132.0 852 L 132.0 864 M 279.5 852 L 279.5 864" stroke="#2b6cb0" stroke-width="1.2"/>
+<text x="205.7" y="848" font-size="13" fill="#2b6cb0" text-anchor="middle">115</text>
+<path d="M 250.0 858 L 286.8 858" stroke="#2b6cb0" stroke-width="1.4" marker-start="url(#dA)" marker-end="url(#dA)"/>
+<path d="M 250.0 852 L 250.0 864 M 286.8 852 L 286.8 864" stroke="#2b6cb0" stroke-width="1.2"/>
+<text x="268.4" y="848" font-size="13" fill="#2b6cb0" text-anchor="middle">20</text>
+<text x="470" y="144" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="bold" letter-spacing="1.2">SECTION AT EYE LEVEL</text>
+<path d="M 450 170 L 691.5999999999999 170" stroke="#5a4a30" stroke-width="7" stroke-linecap="square"/>
+<text x="454" y="160" font-size="11" fill="#8a7a5e" text-anchor="start" font-weight="normal">wall</text>
+<rect x="470.0" y="170.0" width="201.6" height="31.5" fill="#dccfae" stroke="#5a4a30" stroke-width="1.8"/>
+<rect x="470.0" y="201.5" width="201.6" height="31.5" fill="#e8dcc4" stroke="#5a4a30" stroke-width="1.8"/>
+<path d="M 470.0 196.2 L 477.6 201.5 L 470.0 201.5 Z" fill="#3d3d3d" opacity="0.75"/>
+<path d="M 664.0 196.2 L 671.6 201.5 L 671.6 201.5 Z" fill="#3d3d3d" opacity="0.75"/>
+<rect x="505.3" y="233.0" width="75.6" height="35.0" rx="3" fill="#f8f5ec" stroke="#3d3d3d" stroke-width="1.8"/>
+<rect x="505.3" y="268.0" width="75.6" height="10.5" fill="#a89372" stroke="#5a4a30" stroke-width="1.4"/>
+<path d="M 470.0 233.0 L 399.4 233.0 L 399.4 278.5 L 470.0 278.5 Z" fill="#cbb894" stroke="#6b5a3e" stroke-width="1.6"/>
+<text x="434.72" y="292.5" font-size="10.5" fill="#6b5a3e" text-anchor="middle" font-weight="normal">half nose</text>
+<rect x="656.5" y="233.0" width="31.5" height="42.0" fill="#cbb894" stroke="#6b5a3e" stroke-width="1.5"/>
+<text x="711.9200000000001" y="292.5" font-size="10.5" fill="#6b5a3e" text-anchor="middle" font-weight="normal">ear, perpendicular to the face</text>
+<text x="459.92" y="331.0" font-size="10.5" fill="#3d3d3d" text-anchor="middle" font-weight="normal">3 mm bevel at the joint: the shadow line</text>
+<path d="M 470.0 304.5 L 470.0 304.5" stroke="#2b6cb0" stroke-width="1.4" marker-start="url(#dA)" marker-end="url(#dA)"/>
+<text x="490" y="322.5" font-size="11.5" fill="#2b6cb0" text-anchor="start" font-weight="bold">62 from the wall to the eyelid &#183; the depth does not scale</text>
+<text x="918" y="200" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="bold" letter-spacing="1.2">EAR, SEEN FROM THE FLIGHT</text>
+<text x="918" y="218" font-size="11" fill="#8a8a8a" text-anchor="start" font-weight="normal">one silhouette, 18 mm plywood</text>
+<path d="M 918.0 320.6 C 918.0 295.4 930.6 266.0 943.2 253.4 C 953.7 242.9 968.4 240.8 976.8 253.4 C 972.6 261.8 964.2 270.2 960.0 280.7 C 955.8 293.3 960.0 305.9 968.4 316.4 C 972.6 324.8 970.5 333.2 962.1 337.4 C 951.6 343.7 934.8 341.6 926.4 333.2 C 922.2 329.0 920.1 324.8 918.0 320.6" fill="#cbb894" stroke="#6b5a3e" stroke-width="2.2"/>
+<circle cx="943.2" cy="303.8" r="14.7" fill="#cfc9ba" stroke="#3d3d3d" stroke-width="1.5"/>
+<circle cx="943.2" cy="278.6" r="14.7" fill="#cfc9ba" stroke="#3d3d3d" stroke-width="1.5"/>
+<text x="(947.4, 228.2)" y="HC-SR04 behind it" font-size="#3d3d3d" fill="#1b1b1b" text-anchor="start" font-weight="normal">10.5</text>
+<text x="(941.1, 347.9)" y="two transducers in the concha" font-size="#8a7a5e" fill="#1b1b1b" text-anchor="middle" font-weight="normal">10.5</text>
+<text x="(941.1, 364.7)" y="looking down the flight" font-size="#8a7a5e" fill="#1b1b1b" text-anchor="middle" font-weight="normal">10.5</text>
+<text x="470" y="430" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="bold" letter-spacing="1.2">WHAT IS WHERE</text>
+<circle cx="479" cy="456" r="10" fill="#3d3d3d"/><text x="479" y="460.5" font-size="11.5" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+<text x="500" y="460" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">Eye: ball &#216;35 in a &#216;46 ring. The lid is a carved</text>
+<text x="500" y="477" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">wooden shell, closed like the mask's eyelids; open it</text>
+<text x="500" y="494" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">stands up as a visor.</text>
+<circle cx="479" cy="520" r="10" fill="#7b2cbf"/><text x="479" y="524.5" font-size="11.5" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+<text x="500" y="524" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">PIR &#216;32 in the forehead, dome proud of the surface.</text>
+<circle cx="479" cy="550" r="10" fill="#6b5a3e"/><text x="479" y="554.5" font-size="11.5" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+<text x="500" y="554" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">Half nose: a wedge screwed on the cut edge. In front view</text>
+<text x="500" y="571" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">it is a narrow ridge; the section shows how far it comes</text>
+<text x="500" y="588" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">out.</text>
+<circle cx="479" cy="614" r="10" fill="#6b5a3e"/><text x="479" y="618.5" font-size="11.5" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+<text x="500" y="618" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">Pseudo mouth: a shallow recess cut in the front panel, not</text>
+<text x="500" y="635" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">two lips. The shadow of the slot does the work, and a</text>
+<text x="500" y="652" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">shadow costs nothing.</text>
+<circle cx="479" cy="678" r="10" fill="#6b5a3e"/><text x="479" y="682.5" font-size="11.5" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+<text x="500" y="682" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">Ear: one silhouette cut in 18 mm plywood and screwed on</text>
+<text x="500" y="699" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">the edge. The concha is a shallow recess and the HC-SR04</text>
+<text x="500" y="716" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">sits in it, looking sideways down the flight. Position,</text>
+<text x="500" y="733" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">not concealment.</text>
+<text x="50" y="884" font-size="12" fill="#8a8a8a" text-anchor="start" font-weight="normal">Eye centre 1500 mm above the tread of its step. From the wall the piece comes out 62 mm at the eye and 110 mm at the nose: the head is flattened, only the ball is spherical.</text>
+</svg>

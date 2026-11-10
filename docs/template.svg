@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="594mm" height="420mm" viewBox="0 0 594 420" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="594" height="420" fill="#ffffff"/>
+<text x="16" y="14" font-size="8" fill="#161616" text-anchor="start" font-weight="bold" letter-spacing="0.4">ANDROID EYE &#183; PANEL TEMPLATE, 1:1</text>
+<text x="16" y="20.5" font-size="4.4" fill="#5f6b73" text-anchor="start" font-weight="normal">half face, 334 mm tall &#183; print at 100 % on A2 and check the 100 mm bar before cutting</text>
+<path d="M 16 23 L 578 23" stroke="#c9c3b6" stroke-width="0.4"/>
+<path d="M 40.00 369.08 C 44.32 360.44 51.52 350.36 61.60 340.28 C 78.88 323.00 100.48 302.84 117.76 285.56 L 126.40 271.16 C 130.72 251.00 133.60 227.96 135.04 207.80 C 136.48 187.64 135.04 170.36 132.16 153.08 C 129.28 132.92 122.08 115.64 112.00 98.36 C 100.48 75.32 80.32 52.28 60.16 39.32 C 51.52 35.00 44.32 33.56 40.00 35.00 L 40.00 369.08 Z" fill="#fbf8f0" stroke="#161616" stroke-width="0.9"/>
+<circle cx="74.56" cy="157.40" r="33.12" fill="#ffffff" stroke="#161616" stroke-width="0.7"/>
+<path d="M 73.56 157.40 L 75.56 157.40 M 74.56 156.40 L 74.56 158.40" stroke="#161616" stroke-width="0.4"/>
+<path d="M 74.56 157.40 L 88.96 150.20" stroke="#8a8a8a" stroke-width="0.3" stroke-dasharray="2 1.5"/>
+<text x="88.96000000000001" y="148.70000000000002" font-size="4.2" fill="#161616" text-anchor="start" font-weight="normal">&#216;46 eye socket</text>
+<circle cx="100.48" cy="99.80" r="23.04" fill="#ffffff" stroke="#161616" stroke-width="0.7"/>
+<path d="M 99.48 99.80 L 101.48 99.80 M 100.48 98.80 L 100.48 100.80" stroke="#161616" stroke-width="0.4"/>
+<path d="M 100.48 99.80 L 132.16 89.72" stroke="#8a8a8a" stroke-width="0.3" stroke-dasharray="2 1.5"/>
+<text x="132.16" y="88.22000000000003" font-size="4.2" fill="#161616" text-anchor="start" font-weight="normal">&#216;32 PIR</text>
+<circle cx="132.16" cy="179.00" r="11.52" fill="none" stroke="#8a8a8a" stroke-width="0.4" stroke-dasharray="3 2"/>
+<path d="M 132.16 179.00 L 132.16 112.76" stroke="#8a8a8a" stroke-width="0.3" stroke-dasharray="2 1.5"/>
+<text x="130.16" y="111.25999999999999" font-size="4.2" fill="#161616" text-anchor="start" font-weight="normal">ear, disc stack screwed on the edge</text>
+<rect x="40.00" y="143.00" width="18.72" height="64.80" fill="none" stroke="#2b6cb0" stroke-width="0.35" stroke-dasharray="2.5 1.5"/>
+<rect x="40.00" y="230.84" width="24.48" height="25.92" fill="none" stroke="#2b6cb0" stroke-width="0.35" stroke-dasharray="2.5 1.5"/>
+<rect x="40.00" y="337.40" width="27.36" height="28.80" fill="none" stroke="#2b6cb0" stroke-width="0.35" stroke-dasharray="2.5 1.5"/>
+<rect x="40.00" y="121.40" width="60.48" height="28.80" fill="none" stroke="#2b6cb0" stroke-width="0.35" stroke-dasharray="2.5 1.5"/>
+<circle cx="52.96" cy="66.68" r="4.32" fill="#fbf8f0" stroke="#161616" stroke-width="0.5"/>
+<path d="M 50.96 66.68 L 54.96 66.68 M 52.96 64.68 L 52.96 68.68" stroke="#161616" stroke-width="0.35"/>
+<circle cx="106.24" cy="179.00" r="4.32" fill="#fbf8f0" stroke="#161616" stroke-width="0.5"/>
+<path d="M 104.24 179.00 L 108.24 179.00 M 106.24 177.00 L 106.24 181.00" stroke="#161616" stroke-width="0.35"/>
+<circle cx="83.20" cy="328.76" r="4.32" fill="#fbf8f0" stroke="#161616" stroke-width="0.5"/>
+<path d="M 81.20 328.76 L 85.20 328.76 M 83.20 326.76 L 83.20 330.76" stroke="#161616" stroke-width="0.35"/>
+<circle cx="114.88" cy="256.76" r="4.32" fill="#fbf8f0" stroke="#161616" stroke-width="0.5"/>
+<path d="M 112.88 256.76 L 116.88 256.76 M 114.88 254.76 L 114.88 258.76" stroke="#161616" stroke-width="0.35"/>
+<path d="M 33.00 395.00 L 33.00 35.00" stroke="#2b6cb0" stroke-width="0.35"/>
+<text x="31.0" y="215.0" font-size="4.6" fill="#2b6cb0" text-anchor="middle" font-weight="bold">360</text>
+<path d="M 40.00 403.00 L 155.20 403.00" stroke="#2b6cb0" stroke-width="0.35"/>
+<text x="97.6" y="401.0" font-size="4.6" fill="#2b6cb0" text-anchor="middle" font-weight="bold">115</text>
+<path d="M 400 404 L 500 404" stroke="#161616" stroke-width="0.6"/>
+<path d="M 400 404 L 400 399" stroke="#161616" stroke-width="0.4"/>
+<path d="M 410 404 L 410 401" stroke="#161616" stroke-width="0.4"/>
+<path d="M 420 404 L 420 401" stroke="#161616" stroke-width="0.4"/>
+<path d="M 430 404 L 430 401" stroke="#161616" stroke-width="0.4"/>
+<path d="M 440 404 L 440 401" stroke="#161616" stroke-width="0.4"/>
+<path d="M 450 404 L 450 399" stroke="#161616" stroke-width="0.4"/>
+<path d="M 460 404 L 460 401" stroke="#161616" stroke-width="0.4"/>
+<path d="M 470 404 L 470 401" stroke="#161616" stroke-width="0.4"/>
+<path d="M 480 404 L 480 401" stroke="#161616" stroke-width="0.4"/>
+<path d="M 490 404 L 490 401" stroke="#161616" stroke-width="0.4"/>
+<path d="M 500 404 L 500 399" stroke="#161616" stroke-width="0.4"/>
+<text x="400" y="410" font-size="3.8" fill="#8a8a8a" text-anchor="start" font-weight="normal">100 mm: if the print does not measure this, it is scaled and cannot be used</text>
+<text x="320" y="250.0" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">Cut two of these in 18 mm plywood, glue them</text>
+<text x="320" y="255.2" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">face to face and cut once. Before gluing,</text>
+<text x="320" y="260.4" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">bevel 3 mm at 45&#176; along the front edge of</text>
+<text x="320" y="265.6" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">the back panel: it leaves a shadow line under</text>
+<text x="320" y="270.8" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">the front panel, all round.</text>
+<text x="320" y="280.0" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">Both panels: this same outline. Glue them</text>
+<text x="320" y="285.2" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">first, cut once, so the two silhouettes cannot</text>
+<text x="320" y="290.4" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">drift apart.</text>
+<text x="320" y="299.6" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">Blue dashed: the relief pieces, drawn at their</text>
+<text x="320" y="304.8" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">positions. They are screwed on the front face,</text>
+<text x="320" y="310.0" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">from the front, screws visible.</text>
+<text x="320" y="319.20000000000005" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">The &#216;46 socket must be drilled before the</text>
+<text x="320" y="324.40000000000003" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">front panel is mounted: the ring covers the</text>
+<text x="320" y="329.6" font-size="4.2" fill="#4a4a4a" text-anchor="start" font-weight="normal">joint.</text>
+</svg>

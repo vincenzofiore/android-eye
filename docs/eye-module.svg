@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="860" viewBox="0 0 1240 860" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<rect width="1240" height="860" fill="#fbfaf7"/>
+<text x="50" y="56" font-size="26" fill="#161616" text-anchor="start" font-weight="bold" letter-spacing="0.3">ANDROID EYE &#183; THE EYE MODULE</text>
+<text x="50" y="82" font-size="13.5" fill="#5f6b73" text-anchor="start" font-weight="normal">ball &#216;35 in a &#216;46 ring &#183; carved wooden lid, hinged in the wall plane &#183; drawn at 2:1, figures in millimetres</text>
+<path d="M 50 98 L 1190 98" stroke="#d9d4c8" stroke-width="2"/>
+<text x="190" y="245" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="bold" letter-spacing="1.2">FRONT VIEW</text>
+<circle cx="290" cy="470" r="78.2" fill="#e6d8bc" stroke="#5a4a30" stroke-width="2.6"/>
+<circle cx="290" cy="470" r="68.0" fill="#3d3d3d" opacity="0.25"/>
+<circle cx="290" cy="470" r="59.5" fill="#efeade" stroke="#3d3d3d" stroke-width="1.8"/>
+<path d="M 230.5 471.0 A 59.5 59.5 0 0 1 349.5 471.0 Z" fill="#a89372" stroke="#5a4a30" stroke-width="2.2"/>
+<path d="M 239.0 470.0 Q 290 490.4 341.0 470.0" fill="none" stroke="#5a4a30" stroke-width="1.8"/>
+<path d="M 245.8 493.8 Q 290 504.0 334.2 493.8" fill="none" stroke="#8a7a5e" stroke-width="1.2"/>
+<path d="M 230.5 467.0 L 222.0 388.4 A 68.0 68.0 0 0 1 358.0 388.4 L 349.5 467.0" fill="none" stroke="#2d6a4f" stroke-width="2" stroke-dasharray="8 5"/>
+<circle cx="290" cy="470" r="5" fill="#ffffff" stroke="#3d3d3d" stroke-width="2"/>
+<path d="M 171.8 470 L 211.8 470 M 368.2 470 L 408.2 470" stroke="#3d3d3d" stroke-width="3"/>
+<text x="414.2" y="474" font-size="11" fill="#3d3d3d" text-anchor="start" font-weight="normal">axle, in the wall plane</text>
+<rect x="276.0" y="295.8" width="70.0" height="58.0" rx="4" fill="#5c6b73" stroke="#2f3a40" stroke-width="2"/>
+<text x="311" y="331.8" font-size="11.5" fill="#e8eef1" text-anchor="middle" font-weight="bold">SG90</text>
+<path d="M 276.0 325.8 L 234.0 320.0" stroke="#e0a800" stroke-width="5" stroke-linecap="round"/>
+<circle cx="234.0" cy="320.0" r="6" fill="#e0a800" stroke="#a07a00" stroke-width="1.5"/>
+<text x="222" y="324" font-size="11" fill="#8a6d1a" text-anchor="end" font-weight="normal">horn and pushrod to the lid</text>
+<circle cx="324.0" cy="384.0" r="5" fill="#3d3d3d"/>
+<text x="334" y="388" font-size="11" fill="#3d3d3d" text-anchor="start" font-weight="normal">stop at 96&#176;</text>
+<text x="700" y="148" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="bold" letter-spacing="1.2">SECTION, FROM THE SIDE</text>
+<path d="M 676 210 L 676 371.20000000000005" stroke="#5a4a30" stroke-width="7" stroke-linecap="square"/>
+<text x="670" y="204" font-size="11" fill="#8a7a5e" text-anchor="end" font-weight="normal">wall</text>
+<rect x="700.0" y="210.0" width="46.8" height="161.2" fill="#dccfae" stroke="#5a4a30" stroke-width="1.8"/>
+<rect x="746.8" y="210.0" width="46.8" height="161.2" fill="#e8dcc4" stroke="#5a4a30" stroke-width="1.8"/>
+<rect x="767.6" y="230.8" width="26.0" height="119.6" fill="#e6d8bc" stroke="#5a4a30" stroke-width="1.6"/>
+<circle cx="780.6" cy="290.6" r="45.5" fill="#efeade" stroke="#3d3d3d" stroke-width="2"/>
+<path d="M 793.6 246.4 L 793.6 194.4" stroke="#a89372" stroke-width="15.6" stroke-linecap="round"/>
+<rect x="710.4" y="215.2" width="36.4" height="52.0" fill="#5c6b73" stroke="#2f3a40" stroke-width="1.6"/>
+<text x="700" y="397.20000000000005" font-size="11.5" fill="#2b6cb0" text-anchor="start" font-weight="bold">36 mm of panels, 62 mm to the eyelid</text>
+<text x="700" y="450" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="bold" letter-spacing="1.2">HOW IT GOES TOGETHER</text>
+<text x="700" y="480" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="716" y="480" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">The ring is screwed into a &#216;46 recess in the front</text>
+<text x="716" y="497" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">panel, 12 mm deep, so the ball sits half in and half out.</text>
+<text x="700" y="526" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="716" y="526" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">The axle passes through the ball centre, horizontal and</text>
+<text x="716" y="543" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">parallel to the wall: the lid sweeps up in front of the</text>
+<text x="716" y="560" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">face, exactly like an eyelid.</text>
+<text x="700" y="589" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="716" y="589" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">The closed lid is a carved shell, not a disc: the crease</text>
+<text x="716" y="606" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">and the lower line quote the mask's closed eyelids, which</text>
+<text x="716" y="623" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">is what ties the triptych together.</text>
+<text x="700" y="652" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="716" y="652" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">At 96&#176; the lid rests on a small pin and stops.</text>
+<text x="716" y="669" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">Repeatable, no servo strain, no calibration.</text>
+<text x="700" y="698" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="716" y="698" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">The SG90 sits behind the front panel with its horn through</text>
+<text x="716" y="715" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">a slot; the pushrod is visible in the gap. Nothing hidden.</text>
+<text x="700" y="744" font-size="13" fill="#5f6b73" text-anchor="start" font-weight="normal">&#8226;</text>
+<text x="716" y="744" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">The LED goes in the ball from behind, two wires through a</text>
+<text x="716" y="761" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">3 mm hole, which is also the way to re-glue the pupil if</text>
+<text x="716" y="778" font-size="12" fill="#4a4a4a" text-anchor="start" font-weight="normal">it comes loose.</text>
+</svg>
